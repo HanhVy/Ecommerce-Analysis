@@ -2,10 +2,30 @@
 
 ## Problem Statement
 
-This dashboard helps the Whiskique understand their market better. It helps the Whiskique achive their business goals. There are two business goals in Whiskique company, one is serve as many customers as possible and increase sales, and the other is reduce operating sales. Through different ratings, they get to know their improvement area, & thus they can improve their situation by identifying these areas.
+Currently, the company wants to implement improvements to achieve effective Business operations and goals. The company has 3 main goals.
+- Increase sales
+- Reduce delivery costs
+- Market basker analysis
 
+## Insight
 
+### Executive Summary
 
+![Screenshot 2024-04-14 122358](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/77fa5077-5b25-470c-a6aa-d052bbfc8f37)
+
+Food category has the highest sales, and the best-selling product is Taste of the Wild High Prairie Grain-Free Dry Dog Food 40 lb which is also in this product group.
+But the Food category does not bring a very significant profit margin percentage (only 22.67%), which can be inferred that the cost of purchasing and delivery of this category is too high. Compared to the Electronics category, which accounts for more than 44.28% of the total profit, it can be seen that the company manages costs very well for this category.
+
+=> It is necessary to identify products that tend to be purchased together with products with high sales volume. Based on that, conduct upsell promotion projects to reduce delivery costs per product unit.
+## Shipping metrics
+![Screenshot 2024-04-14 122646](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/76215cae-fb81-4c98-ab75-2bd3939d924f)
+Through the dashboard we can see that if we do well in cross-selling, delivery costs will be significantly reduced. Specifically, if the number of products per order is 11 products, we will save $118,190.40.
+## Market Basket Analysis
+![Screenshot 2024-04-14 122846](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/ea7b6e68-f28c-4404-a330-1703c47298be)
+
+Relying on Market Basket Analysis helps marketing, sales and product strategy departments deploy effective cross-sell projects by identifying which products are often purchased together.
+
+For example, Taste of the Wild High Prairie Grain-Free Dry Dog Food 40 lb is the top-selling product, and Memory Foam Pet Beds for Small, Medium, and Large Dogs and Cats is often purchased with it. The marketing department can offer discounts when purchasing the above two products together.
 
 ### Steps followed 
 
@@ -137,29 +157,7 @@ The state of Texas the highest revenue on the  Central Coast.
        Baseline running total = SUMX(FILTER(ALLSELECTED(Sales),Sales[Transaction Date]<=MAX('Market Basket'[Transaction Date])),[Shipping (Difference)])
 
 
-- Step 31: 
 
-
-
-# Insight
-
-## Executive Summary
-
-![Screenshot 2024-04-14 122358](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/77fa5077-5b25-470c-a6aa-d052bbfc8f37)
-
-## Shipping metrics
-![Screenshot 2024-04-14 122646](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/76215cae-fb81-4c98-ab75-2bd3939d924f)
-
-## Market Basket Analysis
-![Screenshot 2024-04-14 122846](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/ea7b6e68-f28c-4404-a330-1703c47298be)
-## Customers Info
-
-![Screenshot 2024-04-14 122936](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/3b9d1a63-96f3-42d2-99ef-13e95bae0c61)
-
-## Product Info
-![Screenshot 2024-04-14 123043](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/02ccdd15-2f50-4cea-97bb-1c308f253d2b)
-## Quantity Info
-![Screenshot 2024-04-14 123151](https://github.com/HanhVy/Inventory-Analysis/assets/166614604/a2832b25-14c0-4084-8cb2-144f68a36d3e)
 
 
 
